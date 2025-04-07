@@ -15,15 +15,23 @@
 
 .main-content {
     display: flex;
-    flex: 1 1 auto;
+    flex: auto 1 1 ;
 }
 
-.sidenav, .sidebar {
-    background-color: #f0ad4e;
+.sidenav {
+    background-color: #cab91b;
     color: white;
     text-align: center;
     padding: 20px;
-    flex: 20% 0 0 ;
+    flex: 25% 0 0 ;
+}
+
+.sidebar {
+    background-color: #b2bd1c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    flex: 25% 0 0 ;
 }
 
 .content {
@@ -35,7 +43,7 @@
 }
 
 .footer {
-    background-color: #d9534f;
+    background-color: #bb403b;
     color: white;
     text-align: center;
     padding: 20px;
